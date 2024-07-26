@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem à Itália</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./image/icon.png" alt="Italia">
+            <p class="hero__text">
+                Olá Kethy! A viagem mais esperada do ano <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Origem</b>
+                        Natal - Rio Grande do Norte
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Destino</b>
+                        Bolonha - Itlália
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Data da viagem</b>
+                        18/10/2024 às 8hrs
+                    </li>
+                </ul>
+                <a class="buttons buttons--primary" href="https://www.decolar.com/passagens-aereas">
+                    Passagens
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--bolonha">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Bolonha</h2>
+                <p class="event__details__description">
+                    Bolonha (Bologna /boˈloɲɲa/ em italiano) é uma comuna italiana, capital e a maior cidade da região da Emília-Romanha, província de Bolonha, mais especificamente, entre os rios Reno e o Savena. Bolonha é uma cidade universitária com cerca de 400 000 habitantes, sendo a sétima maior cidade em termos de população na Itália e é o coração de uma área metropolitana (oficialmente reconhecida pelo governo italiano como uma cidade metropolitana) de cerca de 1 000 000 habitantes.
+                </p>
+            </div>
+            <img class="event__image" src="./image/bolonha.png" alt="Bolonha">
+        </div>
+    </section>
+    <section class="event event--roma event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Roma</h2>
+                <p class="event__details__description">
+                    Roma (em italiano: Roma) é a capital da Itália e também da região do Lácio, além de ser o centro da Cidade Metropolitana de Roma e de uma comuna especial. Com 2 860 009 residentes em 1 285 km²,[1] Roma é a comuna mais populosa do país e a terceira cidade mais populosa da União Europeia. A Cidade Metropolitana de Roma, com uma população de 4 355 725 habitantes, é a cidade metropolitana mais populosa da Itália[2] e sua área metropolitana é a terceira mais populosa do país.[3] A cidade está localizada na porção centro-oeste da Península Itálica, ao longo das margens do rio Tibre.
+                </p>
+            </div>
+            <img class="event__image" src="./image/roma.png" alt="Front-end">
+        </div>
+    </section>
+    <section class="event event--toscana">
+        <div class="container" data-aos="flip-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Toscana</h2>
+                <p class="event__details__description">
+                    A Toscânia[1] ou Toscana[2] (em italiano Toscana) é uma região da Itália central com cerca de 3,7 milhões de habitantes e 22 997 km², cuja capital é Florença.[3] Tem limites a noroeste com a Ligúria, ao norte com a Emília-Romagna, a leste com as Marcas e a Úmbria e ao sul com o Lácio. A oeste seus 397 km de litoral são banhados pelo Mar Lígure e o Mar Tirreno.[4] A Toscana administra ainda as ilhas do Arquipélago Toscano, a principal das quais é a Ilha de Elba.
+                </p>
+            </div>
+            <img class="event__image" src="./image/toscana.png" alt="Front-end">
+        </div>
+    </section>
+    <section class="event event--veneza event--image-left">
+        <div class="container" data-aos="flip-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Veneza</h2>
+                <p class="event__details__description">
+                    Veneza (em italiano: Venezia, em vêneto: Venexia, AFI: [veˈnɛsja]) é uma cidade no nordeste da Itália situada sobre um grupo de 117 pequenas ilhas separadas por canais e ligadas por pontes. Ela está localizada na pantanosa Lagoa de Veneza, que se estende ao longo da costa entre as bocas dos rios Po e Piave. Veneza é famosa pela beleza de sua arquitetura e obras de arte. Uma parte da cidade está listada como um Patrimônio Mundial, juntamente com a sua lagoa.
+                </p>
+            </div>
+            <img class="event__image" src="./image/veneza.png" alt="Front-end">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
