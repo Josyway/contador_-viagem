@@ -8,6 +8,10 @@
     text-align: center;
     white-space: nowrap;
 
+    a{
+        margen-top: 16px;
+    }
+
     &--primary{
         color: variables.$textColor;
         background-color: variables.$buttonColor;
