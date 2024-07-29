@@ -7,11 +7,8 @@
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
-
-    a{
-        margen-top: 16px;
-    }
-
+    margin-bottom: 16px;
+    
     &--primary{
         color: variables.$textColor;
         background-color: variables.$buttonColor;
